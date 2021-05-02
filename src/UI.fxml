@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Pane fx:id="mainPane" layoutX="98.0" layoutY="1.0" prefHeight="400.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane layoutX="-1.0" layoutY="1.0" prefHeight="400.0" prefWidth="100.0" style="-fx-background-color: CadetBlue;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ToggleButton fx:id="buttonCircle" layoutY="187.0" mnemonicParsing="false" onAction="#drawCircle" prefHeight="60.0" prefWidth="80.0" />
+            <ToggleButton fx:id="buttonSquare" layoutX="5.0" layoutY="111.0" mnemonicParsing="false" onAction="#drawSquare" prefHeight="60.0" prefWidth="80.0" />
+            <ToggleButton fx:id="buttonDelete" layoutY="416.0" mnemonicParsing="false" onAction="#enableDelete" prefHeight="60.0" prefWidth="80.0" />
+            <ToggleButton fx:id="buttonMove" layoutY="339.5" mnemonicParsing="false" onAction="#enableMove" prefHeight="60.0" prefWidth="80.0" />
+            <ToggleButton fx:id="buttonRectangle" layoutY="34.0" mnemonicParsing="false" onAction="#drawRectangle" prefHeight="60.0" prefWidth="80.0" />
+            <ToggleButton fx:id="buttonLine" layoutY="263.0" mnemonicParsing="false" onAction="#drawLine" prefHeight="60.0" prefWidth="80.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
